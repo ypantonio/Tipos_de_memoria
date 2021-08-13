@@ -1,0 +1,49 @@
+/*Body*/
+.section-movil{
+    max-width: 375px;
+}
+/*------------------*/
+
+.section-ram{
+    
+    display: flex;
+    flex-direction: column;
+}
+.imagen{
+    width: 100%;
+    padding: 1rem;
+}
+.section-titulo_ram{
+    font-size: var(--h2);
+    color: var(--texto);
+    margin-top: 0.2rem;
+    padding: 1rem;
+}
+h1{
+    font-size: var(--h1);
+    color: var(--texto);
+    text-align: center;
+    margin: 0px 0px 55px 0px ;
+}
+.descripcion-ram{
+    font-size: var(--texto);
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: justify;
+}
+.section-boton_ram{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 5% ;
+    background-color: var(--verde);
+    color: var(--texto);
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 17px 0px 50px 0px ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
